@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<title>Heeda</title>
+	
+</head>
+
+<body>
+	
+	<div id="overlay">
+    <div id="title"><img src="img/logo.png" alt=""></div>
+    <video class="visible-desktop" id="hero-vid" poster="http://www.markhillard.com/sandbox/media/polina.jpg" autoplay loop muted>
+        <source type="video/webm" src="img/woman1.webm"></source>
+        <source type="video/mp4" src="img/woman.mp4"></source>
+    </video>
+    <div id="state" class="visible-desktop">
+		<h1>SOMETHING AWESOME IS COMING!</h1>
+		<h3>be the first to know.</h3>
+	
+	</div>
+    <img id="hero-pic" class="hidden-desktop" src="http://www.markhillard.com/sandbox/media/polina.jpg" alt="">
+</div>
+
+<div id="content">
+    <div class="container">
+		<section class="row mt-5 text-center">
+			<div class="col-md-6 m-auto">
+				<h1><i class="fas fa-newspaper fa-2x"></i></h1>
+				<h1 class="display-4">Exclusive Offer</h1>
+				<p class="lead">Let's us know how to reach you.</p>
+				<form action="signup" method="POST">
+					<div class="form-group">
+						<input 
+						   type="text"
+							name="firstName"
+							id="first-name"
+							class="form-control"
+							placeholder="First Name"
+						   >
+					</div>
+					<div class="form-group">
+						<input 
+						   type="text"
+							name="lastName"
+							id="last-name"
+							class="form-control"
+							placeholder="Last Name"
+						   >
+					</div>
+					<div class="form-group">
+						<input 
+						   type="email"
+							name="email"
+							id="email"
+							class="form-control"
+							placeholder="Email"
+						   >
+					</div>
+					<button class="btn btn-primary btn-block" type="submit">Let me have it!</button>
+				</form>
+			</div>
+		</section>
+	</div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
